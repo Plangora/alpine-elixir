@@ -1,4 +1,4 @@
-FROM plangora/alpine-erlang:22.3.4.3
+FROM plangora/alpine-erlang:23.0.4
 
 LABEL maintainer="Paul Schoenfelder <paulschoenfelder@gmail.com>"
 
@@ -6,7 +6,7 @@ LABEL maintainer="Paul Schoenfelder <paulschoenfelder@gmail.com>"
 # is updated with the current date. It will force refresh of all
 # of the base images and things like `apt-get update` won't be using
 # old cached versions when the Dockerfile is built.
-ENV REFRESHED_AT=2020-07-20 \
+ENV REFRESHED_AT=2020-09-19 \
     ELIXIR_VERSION=v1.10.4 \
     MIX_HOME=/opt/mix \
     HEX_HOME=/opt/hex
